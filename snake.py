@@ -173,7 +173,7 @@ def main():
     
     while flag:
         pygame.time.delay(50)
-        clock.tick(10)
+        clock.tick(20)
         s.move()
         headPos = s.head.pos
         if headPos[0] >= 20 or headPos[0] < 0 or headPos[1] >= 20 or headPos[1] < 0:
